@@ -1088,12 +1088,14 @@ option {
 
 .blog-area {
     position: relative;
+    background-color: #191a1b;
 }
 
 
 .post-details {
     background: #fff none repeat scroll 0 0;
     padding: 20px;
+    min-height: 494px;
 }
 
 a.post-meta-button {
@@ -1114,6 +1116,7 @@ a.post-meta-button {
     margin-bottom: 30px;
     padding-bottom: 20px;
     position: relative;
+    min-height: 78px;
 }
 
 .post-details>h3::after {
