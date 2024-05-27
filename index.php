@@ -306,7 +306,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="reservation-form">
-                                        <form action="#thanks.php" class="table-booking-form" id="reservation" method="get">
+                                        <form action="thanks.php" class="table-booking-form" id="reservation" method="get">
                                             <div class="row">
                                                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                                                     <label for="name"><i class="fa fa-user-o"></i></label>
