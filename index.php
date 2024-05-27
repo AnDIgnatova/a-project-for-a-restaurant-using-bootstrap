@@ -33,7 +33,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!--====== MAIN STYLESHEETS ======-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
@@ -73,7 +73,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="index.html" class="navbar-brand">
+                            <a href="index.php" class="navbar-brand">
                                 <img src="img/main_logo.png" alt="logo">
                             </a>
                             <a href="#home" class="navbar-brand white">
@@ -377,7 +377,7 @@
                             <img src="img/blog/blog-3.jpg" alt="">
                         </div>
                         <div class="post-details">
-                            <h3><a href="single-blog.html">8 марта</a></h3>
+                            <h3><a href="#">8 марта</a></h3>
                             <p>С 8 Марта, милые наши женщины!<br>Мы знаем, что вы можете быть бесконечно сильными и выносливыми, но мы желаем вам всем иметь возможность быть слабыми! Чтобы самой большой проблемой было, какого цвета помаду выбрать.</p>
                             <p>Мы любим и восхищаемся вами каждый день!</p>
                         </div>
@@ -389,7 +389,7 @@
                             <img src="img/blog/blog-1.jpg" alt="">
                         </div>
                         <div class="post-details">
-                            <h3><a href="single-blog.html">Мы открыли Little Sicily на Дыбенко</a></h3>
+                            <h3><a href="#">Мы открыли Little Sicily на Дыбенко</a></h3>
                             <p> Невском районе открылся второй ресторан итальянской кухни Little Sicily. С порога гостей здесь встречают яркие цвета сицилийского герба, аппетитные ароматы томатов, свежеиспеченной пиццы и пряных трав.</p>
                             <p>Адрес: ул.Дыбенко 2/1 </p>
                             <p>Телефон: +7 (999) 11-66-554  </p>
@@ -402,7 +402,7 @@
                             <img src="img/blog/blog-2.jpg" alt="">
                         </div>
                         <div class="post-details">
-                            <h3><a href="single-blog.html">Доставка</a></h3>
+                            <h3><a href="#">Доставка</a></h3>
                             <p>Иногда всё, что нужно для счастья &#8212; доставка из ресторана Little Sicily.</p>
                             <p>Доставка осуществляется с помощью Яндекс доставки. <br>Доставка в пределах зеленой зоны — 500 рублей (бесплатно от 4500 рублей). С зонами доставки можно ознакомиться на сайтах доставки.</p>
                             <p>Сайт доставки на Марата: <a href="https://delivery.littlesicily.ru">https://delivery.littlesicily.ru</a> </p>
@@ -426,7 +426,7 @@
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="footer-top section-padding text-center">
                         <div class="footer-logo">
-                            <a href="#">
+                            <a href="index.php">
                                 <img src="img/logo-footer.png" alt="" width="300px">
                             </a>
                         </div>
@@ -454,7 +454,7 @@
 
 
     <!--====== SCRIPTS JS ======-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
 
     <!--====== PLUGINS JS ======-->

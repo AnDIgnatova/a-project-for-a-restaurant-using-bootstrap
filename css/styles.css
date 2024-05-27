@@ -144,15 +144,7 @@ input:-webkit-autofill:focus {
     text-transform: capitalize;
 }
 
-.area-title h2::after {
-    background: rgba(0, 0, 0, 0) url("img/icons/red.png") no-repeat scroll center center / contain;
-    bottom: 0;
-    content: "";
-    height: 30px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
+
 
 .section-padding {
     padding: 100px 0;
@@ -261,16 +253,7 @@ input:-webkit-autofill:focus {
     z-index: 99999;
 }
 
-.mainmenu-area::after {
-    background: rgba(0, 0, 0, 0) url("img/icons/tri-promo-bottom-white.png") repeat scroll 0 0;
-    bottom: -7px;
-    content: "";
-    height: 7px;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-}
+
 
 .is-sticky .mainmenu-area::after {
     opacity: 1;
@@ -490,17 +473,6 @@ a.home-reservation-button:hover {
     padding-top: 5%
 }
 
-.pogoSlider-slide::after {
-    background: #000 url("img/pattarn.png") repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
 
 
 /*----------------------------
@@ -668,30 +640,8 @@ a.search-form-trigger::before {
     3. ABOUT AREA
 ------------------------------*/
 
-.about-area {
-    background: rgba(0, 0, 0, 0) url("img/about/home_three_about_bg.png") no-repeat scroll center bottom / contain;
-    position: relative;
-}
 
-.about-area::after,
-.about-area::before,
-.menus-area::after,
-.menus-area::before,
-.team-area::after,
-.team-area::before,
-.gallery-area::after,
-.footer-area::after {
-    background: rgba(0, 0, 0, 0) url("img/icons/tri-promo-bottom-white.png") repeat scroll 0 0;
-    content: "";
-    height: 7px;
-    left: 0;
-    position: absolute;
-    top: -7px;
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-    width: 100%;
-    z-index: 9;
-}
+
 
 .about-area::before,
 .menus-area::before,
@@ -764,32 +714,6 @@ a.read-more {
     position: relative;
 }
 
-.promotion-area-bg,
-.reservation-button-area-bg,
-.blog-area-bg,
-.footer-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_1.jpg") no-repeat scroll center center / cover;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.promotion-area-bg::after,
-.reservation-button-area-bg:after,
-.blog-area-bg:after,
-.footer-area-bg::after,
-.page-barner-bg::after {
-    background: #000 url(img/pattarn.png);
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.8;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
 
 .promotions-img {
     height: auto;
@@ -948,6 +872,7 @@ a.read-more {
 
 .reservation-button-area.section-padding {
     padding: 150px 0;
+    background-color: #191a1b;
 }
 
 .reservation-button-area {
@@ -956,9 +881,6 @@ a.read-more {
     position: relative;
 }
 
-.reservation-button-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_2.jpg") no-repeat scroll center center / cover;
-}
 
 .resarvation-from-button.text-center h2 {
     font-size: 50px;
@@ -1168,9 +1090,6 @@ option {
     position: relative;
 }
 
-.blog-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_3.jpg") no-repeat scroll center center / cover;
-}
 
 .post-details {
     background: #fff none repeat scroll 0 0;
@@ -1298,9 +1217,6 @@ a.post-meta-button {
     transform: rotate(0deg);
 }
 
-.footer-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/footer_bg_2.jpg") no-repeat scroll center center / cover;
-}
 
 .footer-top {
     border-bottom: 1px solid #2B2C2D;
@@ -1983,17 +1899,6 @@ ul.blog-instagram-feed-widget li {
     z-index: 2;
 }
 
-.top-area-bg::before {
-    background: #000000 url("img/pattarn.png") repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
 
 .welcome-text-area {
     -webkit-box-align: center;
@@ -2089,32 +1994,7 @@ ul.blog-instagram-feed-widget li {
     padding: 30px;
     text-align: center;
 }
-.food-menu-img-two .menu-price {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0) url("img/icons/tag.png") no-repeat scroll center center / cover ;
-  border-radius: 5px;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "PT Sans Narrow",sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  height: 100px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  left: 50%;
-  padding: 10px 20px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 100px;
-  z-index: 9;
-}
+
 
 .food-menu-img-two::after {
     background: #000000 none repeat scroll 0 0;
@@ -2174,27 +2054,6 @@ ul.blog-instagram-feed-widget li {
     width: 100%;
 }
 
-.package-price {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0) url("img/icons/tag.png") no-repeat scroll center center / cover ;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-family: "PT Sans Narrow",sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    height: 100px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    left: -50px;
-    position: absolute;
-    top: -50px;
-    width: 100px;
-}
 
 .home-alt .single-promotions:hover .promotions-img::after {
     opacity: 0.5;
