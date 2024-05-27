@@ -340,7 +340,8 @@
                                                     </select>
                                                 </div>
                                                 <div class="col-md-6 col-lg-6 col-sm-6 col-sm-offset-3  col-md-offset-3  col-lg-offset-3 col-xs-12">
-                                                    <button type="submit">Забронировать столик</button>
+                                                    
+                                                    <input type="submit" id="submit" name="send" class="submitBnt" value="Забронировать столик ">
                                                 </div>
                                             </div>
                                         </form>
